@@ -72,7 +72,7 @@ export default class Home extends Component {
 				<div className="card">
 					<img
 						className="card-img-top"
-						src={url('../images/covalence.jpg')}
+						src="http://www.chickensaladchick.com/sites/default/files/csc-logo.png"
 						alt="Simply Southern Restaurant Group"
 					/>
 					<div className="card-body">
