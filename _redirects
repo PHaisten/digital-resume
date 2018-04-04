@@ -1,2 +1,3 @@
 # Redirect domain aliases to primary domain
 http://paytonhaisten.com/* http://paytonhaisten.com/:splat 301!
+paytonhaisten.me ALIAS pedantic-liskov-98c6ae.netlify.com.
