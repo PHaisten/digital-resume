@@ -72,7 +72,7 @@ export default class Home extends Component {
 				<div className="card">
 					<img
 						className="card-img-top"
-						src="http://www.chickensaladchick.com/sites/default/files/csc-logo.png"
+						src={url('../images/covalence.jpg')}
 						alt="Simply Southern Restaurant Group"
 					/>
 					<div className="card-body">
@@ -161,3 +161,5 @@ export default class Home extends Component {
 		);
 	}
 }
+
+// "http://www.chickensaladchick.com/sites/default/files/csc-logo.png"
