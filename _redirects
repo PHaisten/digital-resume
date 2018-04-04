@@ -1,2 +1,2 @@
 # Redirect domain aliases to primary domain
-http://paytonhaisten.me/* http://paytonhaisten.me/:splat 301!
+http://paytonhaisten.com/* http://paytonhaisten.com/:splat 301!
