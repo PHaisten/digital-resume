@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { render } from 'react-dom';
 
 const navbarStyle = {
 	color: 'black',
@@ -14,57 +13,55 @@ const navHStyle = {
 };
 
 const navTStyle = {
-	color: 'rgb(204, 77, 3)'
+	color: 'rgb(204, 77, 3)',
+	textAlign: 'right'
 };
 
 export default class NavBar extends Component {
 	render() {
 		return (
 			<nav
-				className="navbar navbar-inverse bg-inverse d-flex"
+				className="navbar navbar-expand-lg navbar-light bg-light"
 				style={navbarStyle}
-				id="navbar"
 			>
-				<a
-					className="navbar-brand mr-auto p-2"
-					style={navHStyle}
-					id="nav-h"
-					href="/"
-				>
+				<a className="navbar-brand p-2" href="/" style={navHStyle} id="nav-h">
 					Payton Haisten
 				</a>
-				<a
-					className="nav-item nav-link p-2"
-					style={navTStyle}
-					id="nav-t"
-					href="/"
+				<button
+					className="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
 				>
-					Home
-				</a>
-				<a
-					className="nav-item nav-link p-2"
-					id="nav-t"
-					style={navTStyle}
-					href="/work"
-				>
-					Work
-				</a>
-				<a
-					className="nav-item nav-link p-2"
-					id="nav-t"
-					style={navTStyle}
-					href="/resume"
-				>
-					Resumé
-				</a>
-				<a
-					className="nav-item nav-link p-2"
-					id="nav-t"
-					style={navTStyle}
-					href="/contact"
-				>
-					Contact
-				</a>
+					<span className="navbar-toggler-icon" />
+				</button>
+				<div className="collapse navbar-collapse" id="navbarNav">
+					<ul className="navbar-nav">
+						<li className="nav-item">
+							<a className="nav-link" href="/" style={navTStyle}>
+								Home
+							</a>
+						</li>
+						<li className="nav-item">
+							<a className="nav-link" href="/resume" style={navTStyle}>
+								Resume
+							</a>
+						</li>
+						<li className="nav-item">
+							<a className="nav-link" href="/work" style={navTStyle}>
+								Work
+							</a>
+						</li>
+						<li className="nav-item">
+							<a className="nav-link" href="/contact" style={navTStyle}>
+								Contact
+							</a>
+						</li>
+					</ul>
+				</div>
 			</nav>
 		);
 	}

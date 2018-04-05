@@ -11,13 +11,12 @@ export default class Home extends Component {
 		return (
 			<div>
 				<div className="jumbotron">
-					<p className="headerText">I need a job, please!</p>
-				</div>
-				<body className="body">
-					<div>
-						<p>Hey Bud!</p>
+					<div className="frame">
+						<p className="headerText">Payton</p>
+						<p className="headerText">Haisten</p>
+						<p className="underText">Web Developer, Barner, Crocs Lover</p>
 					</div>
-				</body>
+				</div>
 			</div>
 		);
 	}
