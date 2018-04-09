@@ -32,6 +32,7 @@
 	background-position-y: 0.8em;
 	padding: 7em;
 	background-color: antiquewhite;
+	background-attachment: fixed;
 	/* border: solid 1em;
 	border-color: rgb(204, 77, 3, 0.75); */
 }
@@ -52,12 +53,13 @@
 
 .headerText {
 	font-family: 'Josefin Sans', sans-serif;
-	font-size: 6em;
+	font-size: 10vw;
 }
 
 .underText {
 	font-family: 'Quicksand', sans-serif;
 	margin-left: 10px;
+	font-size: 2vw;
 }
 
 .card-columns {
@@ -74,6 +76,12 @@
 .card-text {
 	
 } */
+
+@media (max-width: 640px) {
+	section {
+		background-attachment: initial;
+	}
+}
 
 @keyframes App-logo-spin {
 	from {

@@ -14,7 +14,7 @@ export default class Home extends Component {
 					<div className="frame">
 						<p className="headerText">Payton</p>
 						<p className="headerText">Haisten</p>
-						<p className="underText">Web Developer, Barner, Crocs Lover</p>
+						<p className="underText">Full Stack Web Developer</p>
 					</div>
 				</div>
 			</div>
