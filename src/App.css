@@ -28,8 +28,9 @@
 	background-image: url('./images/jumbo.jpg');
 	background-repeat: no-repeat;
 	background-size: 40%;
-	background-position-x: 33em;
-	background-position-y: 0.8em;
+	/* background-position-x: 33em;
+  background-position-y: 0.8em; */
+	background-position: 50vmax;
 	padding: 7em;
 	background-color: antiquewhite;
 	background-attachment: fixed;
@@ -54,6 +55,7 @@
 .headerText {
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 10vw;
+	text-shadow: 2px 2px 0px rgb(204, 77, 3, 0.75);
 }
 
 .underText {
