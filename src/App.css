@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=ABeeZee|Josefin+Sans:600i|Poiret+One|Prompt|Quicksand');
+@import url('https://fonts.googleapis.com/css?family=ABeeZee|Josefin+Sans:600i|Prompt|Quicksand|Poppins:500|Work+Sans:300|Bitter');
 
 .App {
 	text-align: center;
@@ -44,6 +44,7 @@
 }
 
 .body {
+	padding-top: 8em;
 	/* background-image: url('./images/background.jpg');
 	background-size: auto;
 	background-repeat: no-repeat;
@@ -79,17 +80,45 @@
 	
 } */
 
-@media (max-width: 640px) {
-	section {
-		background-attachment: initial;
-	}
+#nav-h {
+	font-family: 'Josefin Sans', sans-serif;
 }
 
-@keyframes App-logo-spin {
-	from {
-		transform: rotate(0deg);
-	}
-	to {
-		transform: rotate(360deg);
+#navbarNav {
+	font-family: 'Work Sans', sans-serif;
+}
+
+#about-section {
+	/* display: inline-flex; */
+	padding: 15%;
+}
+
+#about-image {
+	background-image: url('./images/smallprof.jpg');
+	background-size: 35vmax;
+	background-repeat: no-repeat;
+	/* background-position: 8vmax; */
+	width: 50vmax;
+	height: 38vmax;
+	outline: 0.75em solid rgb(204, 77, 3, 0.75);
+}
+
+#about-header {
+	font-family: 'Bitter', serif;
+	padding: 5%;
+	width: 100%;
+}
+
+#about-text {
+	font-family: 'Work Sans', sans-serif;
+	display: inline-block;
+	/* margin-left: 5em; */
+	padding: 4%;
+	width: 90%;
+}
+
+@media (max-width: 640px) {
+	.jumbotron {
+		background-image: none;
 	}
 }
