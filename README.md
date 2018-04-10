@@ -1,3 +1,8 @@
+This is my personal website project that shows my capabilities with Bootstrap, CSS, HTML, React.js, and Node.js. 
+
+To view my site visit: [click here!](https://pedantic-liskov-98c6ae.netlify.com/)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
