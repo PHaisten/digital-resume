@@ -121,4 +121,7 @@
 	.jumbotron {
 		background-image: none;
 	}
+	#about-image {
+		display: none;
+	}
 }
