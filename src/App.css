@@ -95,7 +95,7 @@
 
 #experience {
 	background-color: antiquewhite;
-	padding: 15%;
+	padding: 10%;
 }
 
 #experience-header {
@@ -113,6 +113,15 @@
 
 #dates {
 	float: right;
+}
+
+#skills {
+	font-family: 'Work Sans', sans-serif;
+	padding: 20%;
+}
+
+#skill-header {
+	font-family: 'Bitter', serif;
 }
 
 @media (max-width: 640px) {

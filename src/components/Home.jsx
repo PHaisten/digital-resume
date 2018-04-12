@@ -5,6 +5,30 @@ const submitStyle = {
 	display: 'block'
 };
 
+const languageHtml = {
+	width: '90%'
+};
+
+const languageCss = {
+	width: '85%'
+};
+
+const languageJs = {
+	width: '70%'
+};
+
+const languageSql = {
+	width: '45%'
+};
+
+const framework = {
+	width: '90%'
+};
+
+// const progress1 = {
+// 	width: '75%'
+// };
+
 export default class Home extends Component {
 	render() {
 		return (
@@ -33,7 +57,7 @@ export default class Home extends Component {
 						</div>
 					</div>
 				</div>
-				<div id="experience">
+				<div className="container-fluid" id="experience">
 					<h1 className="row" id="experience-header">
 						Experience
 					</h1>
@@ -50,9 +74,10 @@ export default class Home extends Component {
 					<h6 className="text-muted">Student</h6>
 					<div className="container" id="experience-text">
 						<p className="row">
-							- Led a team to create a React-Native app built with Native-Base
-							components that matched mentors and mentees with shared areas of
-							interest using REST API calls and SQL queries to the database.
+							- Was tasked to lead a team to create a React-Native app built
+							with Native-Base components that matched mentors and mentees with
+							shared areas of interest using REST API calls and SQL queries to
+							the database.
 						</p>
 						<p className="row">
 							- By using Node.js, our app was given a high level of
@@ -132,25 +157,158 @@ export default class Home extends Component {
 						Download Resume
 					</a>
 				</div>
-				<div className="container" id="skills">
-					<div className="row" id="about-section">
-						<div className="col">
-							<h1 className="row" id="about-header">
-								Skills
-							</h1>
-							<p className="row ml-2" id="about-text">
-								HTML
-							</p>
-							<div className="progress">
-								<div
-									className="progress-bar progress-bar-striped progress-bar-animated"
-									role="progressbar"
-									aria-valuenow="75"
-									aria-valuemin="0"
-									aria-valuemax="100"
-									style="width: 75%"
-								/>
-							</div>
+				<div className="container-fluid" id="skills">
+					<h1 className="row" id="skill-header">
+						Skills
+					</h1>
+					<hr />
+					<div className="container-fluid p-4">
+						<h3 className="">Languages</h3>
+						<h6 className="py-2">HTML</h6>
+						<div className="progress">
+							<div
+								className="progress-bar progress-bar-striped progress-bar-animated bg-warning py-1"
+								role="progressbar"
+								aria-valuenow="75"
+								aria-valuemin="0"
+								aria-valuemax="100"
+								style={languageHtml}
+							/>
+						</div>
+						<h6 className="py-1">CSS</h6>
+						<div className="progress">
+							<div
+								className="progress-bar progress-bar-striped progress-bar-animated bg-warning py-1"
+								role="progressbar"
+								aria-valuenow="75"
+								aria-valuemin="0"
+								aria-valuemax="100"
+								style={languageCss}
+							/>
+						</div>
+						<h6 className="py-1">JavaScript/JQuery</h6>
+						<div className="progress">
+							<div
+								className="progress-bar progress-bar-striped progress-bar-animated bg-warning py-1"
+								role="progressbar"
+								aria-valuenow="50"
+								aria-valuemin="0"
+								aria-valuemax="100"
+								style={languageJs}
+							/>
+						</div>
+						<h6 className="py-1">Node.js</h6>
+						<div className="progress">
+							<div
+								className="progress-bar progress-bar-striped progress-bar-animated bg-warning py-1"
+								role="progressbar"
+								aria-valuenow="75"
+								aria-valuemin="0"
+								aria-valuemax="100"
+								style={languageJs}
+							/>
+						</div>
+						<h6 className="py-1">Express</h6>
+						<div className="progress">
+							<div
+								className="progress-bar progress-bar-striped progress-bar-animated bg-warning w-50 py-1"
+								role="progressbar"
+								aria-valuenow="50"
+								aria-valuemin="0"
+								aria-valuemax="100"
+							/>
+						</div>
+						<h6 className="py-1">ES6/ES7</h6>
+						<div className="progress">
+							<div
+								className="progress-bar progress-bar-striped progress-bar-animated bg-warning w-50 py-1"
+								role="progressbar"
+								aria-valuenow="50"
+								aria-valuemin="0"
+								aria-valuemax="100"
+							/>
+						</div>
+						<h6 className="py-1">SQL</h6>
+						<div className="progress">
+							<div
+								className="progress-bar progress-bar-striped progress-bar-animated bg-warning py-1"
+								role="progressbar"
+								aria-valuenow="25"
+								aria-valuemin="0"
+								aria-valuemax="100"
+								style={languageSql}
+							/>
+						</div>
+					</div>
+					<div className="container-fluid p-4">
+						<h3 className="">Frameworks</h3>
+						<h6 className="py-1">React.js</h6>
+						<div className="progress">
+							<div
+								className="progress-bar progress-bar-striped progress-bar-animated bg-warning py-1"
+								style={framework}
+								role="progressbar"
+								aria-valuenow="90"
+								aria-valuemin="0"
+								aria-valuemax="100"
+							/>
+						</div>
+						<h6 className="py-1">React.Native</h6>
+						<div className="progress">
+							<div
+								className="progress-bar progress-bar-striped progress-bar-animated bg-warning py-1 w-75"
+								role="progressbar"
+								aria-valuenow="75"
+								aria-valuemin="0"
+								aria-valuemax="100"
+							/>
+						</div>
+						<h6 className="py-2">Bootstrap</h6>
+						<div className="progress">
+							<div
+								className="progress-bar progress-bar-striped progress-bar-animated bg-warning w-75"
+								style={framework}
+								role="progressbar"
+								aria-valuenow="75"
+								aria-valuemin="0"
+								aria-valuemax="100"
+							/>
+						</div>
+					</div>
+					<div className="container-fluid p-4">
+						<h3 className="">Tools</h3>
+						<h6 className="py-1">Github/Git</h6>
+						<div className="progress">
+							<div
+								className="progress-bar progress-bar-striped progress-bar-animated bg-warning py-1"
+								style={framework}
+								role="progressbar"
+								aria-valuenow="90"
+								aria-valuemin="0"
+								aria-valuemax="100"
+							/>
+						</div>
+						<h6 className="py-1">VSC</h6>
+						<div className="progress">
+							<div
+								className="progress-bar progress-bar-striped progress-bar-animated bg-warning py-1"
+								style={framework}
+								role="progressbar"
+								aria-valuenow="90"
+								aria-valuemin="0"
+								aria-valuemax="100"
+							/>
+						</div>
+						<h6 className="py-1">Adode CS</h6>
+						<div className="progress">
+							<div
+								className="progress-bar progress-bar-striped progress-bar-animated bg-warning py-1 w-75"
+								style={framework}
+								role="progressbar"
+								aria-valuenow="75"
+								aria-valuemin="0"
+								aria-valuemax="100"
+							/>
 						</div>
 					</div>
 				</div>
