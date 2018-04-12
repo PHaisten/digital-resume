@@ -46,17 +46,22 @@ export default class NavBar extends Component {
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="/resume" style={navTStyle}>
-								Resume
+							<a className="nav-link" href="#experience" style={navTStyle}>
+								Experience
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="/work" style={navTStyle}>
+							<a className="nav-link" href="#skills" style={navTStyle}>
+								Skills
+							</a>
+						</li>
+						<li className="nav-item">
+							<a className="nav-link" href="#work" style={navTStyle}>
 								Work
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="/contact" style={navTStyle}>
+							<a className="nav-link" href="#contact" style={navTStyle}>
 								Contact
 							</a>
 						</li>
