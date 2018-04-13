@@ -113,6 +113,7 @@
 
 #dates {
 	float: right;
+	margin-left: 10%;
 }
 
 #skills {
@@ -122,6 +123,25 @@
 
 #skill-header {
 	font-family: 'Bitter', serif;
+}
+
+#work {
+	background-color: antiquewhite;
+	padding: 15%;
+}
+
+#mentorimg {
+	background-image: url('./images/mentorme.png');
+	background-repeat: no-repeat;
+	height: 51vmax;
+}
+
+#work-header {
+	font-family: 'Bitter', sans-serif;
+}
+
+#work-text {
+	font-family: 'Work Sans', sans-serif;
 }
 
 @media (max-width: 640px) {

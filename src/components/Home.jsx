@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ScrollUpButton from 'react-scroll-up-button';
 
 const submitStyle = {
 	color: 'rgb(204, 77, 3)',
@@ -30,6 +31,12 @@ const framework = {
 // };
 
 export default class Home extends Component {
+	displayScroll() {}
+
+	scrollToTop() {
+		window.scrollTo(0, 0);
+	}
+
 	render() {
 		return (
 			<div>
@@ -73,7 +80,7 @@ export default class Home extends Component {
 
 					<h6 className="text-muted">Student</h6>
 					<div className="container" id="experience-text">
-						<p className="row">
+						<p className="row mt-2">
 							- Was tasked to lead a team to create a React-Native app built
 							with Native-Base components that matched mentors and mentees with
 							shared areas of interest using REST API calls and SQL queries to
@@ -312,6 +319,32 @@ export default class Home extends Component {
 						</div>
 					</div>
 				</div>
+				<div className="container-fluid" id="work">
+					<h1 className="row" id="experience-header">
+						Experience
+					</h1>
+					<hr className="pb-4" />
+					<div className="row" id="mentor">
+						<div className="col d-inline-flex" id="mentorimg" />
+						<div className="col mt-5">
+							<h3 className="row" id="work-header">
+								Mentor.me
+							</h3>
+							<p className="row" id="work-text">
+								While in Covalence, we were tasked with creating a React Native
+								app that functioned as a way for thos who wanted to learn more
+								about web development and programming to connect.
+							</p>
+							<a
+								href="https://github.com/PHaisten/mentor.me-frontend"
+								target="_blank"
+							>
+								View Project
+							</a>
+						</div>
+					</div>
+				</div>
+				<ScrollUpButton />
 			</div>
 		);
 	}
