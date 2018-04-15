@@ -133,7 +133,8 @@
 #mentorimg {
 	background-image: url('./images/mentorme.png');
 	background-repeat: no-repeat;
-	height: 51vmax;
+	height: 50vmax;
+	width: 100%;
 }
 
 #work-header {
@@ -144,11 +145,16 @@
 	font-family: 'Work Sans', sans-serif;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 500px) {
 	.jumbotron {
 		background-image: none;
 	}
 	#about-image {
 		display: none;
+	}
+
+	#mentorimg {
+		position: absolute;
+		left: -1000px;
 	}
 }
