@@ -26,6 +26,15 @@ const framework = {
 	width: '90%'
 };
 
+const linkb = {
+	color: 'rgb(204, 77, 3)'
+};
+
+const linkc = {
+	backgroundColor: 'rgb(204, 77, 3)',
+	color: 'white'
+};
+
 // const progress1 = {
 // 	width: '75%'
 // };
@@ -40,14 +49,14 @@ export default class Home extends Component {
 	render() {
 		return (
 			<div>
-				<div className="jumbotron">
+				<section className="jumbotron">
 					<div className="frame">
 						<p className="headerText">Payton</p>
 						<p className="headerText">Haisten</p>
 						<p className="underText">Full Stack Web Developer</p>
 					</div>
-				</div>
-				<div className="container" id="about">
+				</section>
+				<section className="container" id="about">
 					<div className="row" id="about-section">
 						<div className="col" id="about-image" />
 						<div className="col">
@@ -63,8 +72,8 @@ export default class Home extends Component {
 							</p>
 						</div>
 					</div>
-				</div>
-				<div className="container-fluid" id="experience">
+				</section>
+				<section className="container-fluid" id="experience">
 					<h1 className="row" id="experience-header">
 						Experience
 					</h1>
@@ -163,8 +172,8 @@ export default class Home extends Component {
 					>
 						Download Resume
 					</a>
-				</div>
-				<div className="container-fluid" id="skills">
+				</section>
+				<section className="container-fluid" id="skills">
 					<h1 className="row" id="skill-header">
 						Skills
 					</h1>
@@ -281,6 +290,17 @@ export default class Home extends Component {
 								aria-valuemax="100"
 							/>
 						</div>
+						<h6 className="py-2">WordPress</h6>
+						<div className="progress">
+							<div
+								className="progress-bar progress-bar-striped progress-bar-animated bg-warning w-50"
+								style={framework}
+								role="progressbar"
+								aria-valuenow="50"
+								aria-valuemin="0"
+								aria-valuemax="100"
+							/>
+						</div>
 					</div>
 					<div className="container-fluid p-4">
 						<h3 className="">Tools</h3>
@@ -318,10 +338,10 @@ export default class Home extends Component {
 							/>
 						</div>
 					</div>
-				</div>
-				<div className="container-fluid" id="work">
+				</section>
+				<section className="container-fluid" id="work">
 					<h1 className="row" id="experience-header">
-						Experience
+						Work
 					</h1>
 					<hr className="pb-4" />
 					<div className="row" id="mentor">
@@ -336,14 +356,81 @@ export default class Home extends Component {
 								about web development and programming to connect.
 							</p>
 							<a
+								className="btn btn-light btn-sm ml-2"
+								style={linkb}
 								href="https://github.com/PHaisten/mentor.me-frontend"
 								target="_blank"
+								rel="noopener noreferrer"
 							>
 								View Project
 							</a>
 						</div>
 					</div>
-				</div>
+					<div className="row" id="mentor">
+						<div className="col mt-5 mr-5">
+							<h3 className="row" id="work-header">
+								Chirpr
+							</h3>
+							<p className="row" id="work-text">
+								Another Covalence project I was tasked with was to make a
+								Twitter clone called, Chirpr. The site utilizes Bootstrap, REST
+								API calls, MySQL database, Node.js, and React.js. Click the link
+								below to view my code!
+							</p>
+							<a
+								className="btn btn-light btn-sm ml-2"
+								style={linkb}
+								href="https://github.com/PHaisten/chirpr"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								View Project
+							</a>
+						</div>
+						<div className="col d-inline-flex" id="chirprimg" />
+					</div>
+					<div className="row" id="mentor">
+						<div className="col d-inline-flex mr-5" id="currentimg" />
+						<div className="col mt-5">
+							<h3 className="row" id="work-header">
+								The Current
+							</h3>
+							<p className="row" id="work-text">
+								Using WordPress, I created a blog for a friend called The
+								Current. I consulted with my friend and trained him on how to
+								manage his blog using the CMS. Installed SEO, Google Analytics,
+								and many more traffic driving plugins to increase and track web
+								presence. Click below to view the finished product!
+							</p>
+							<a
+								className="btn btn-light btn-sm ml-2"
+								style={linkb}
+								href="http://thecurrent.me"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								View Project
+							</a>
+						</div>
+					</div>
+					<h2 className="row" id="more-header">
+						Much more to come...
+					</h2>
+				</section>
+
+				<section className="container-fluid" id="contact">
+					<h2 className="row" id="contact-header">
+						Reach out if you like my work!
+					</h2>
+
+					<a
+						className="btn btn-xl ml-5"
+						style={linkc}
+						href="mailto:me@paytonhaisten.com"
+					>
+						Let's chat
+					</a>
+				</section>
 				<ScrollUpButton />
 			</div>
 		);

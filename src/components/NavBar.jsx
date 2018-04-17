@@ -24,7 +24,13 @@ export default class NavBar extends Component {
 				className="navbar navbar-expand-lg navbar-light bg-light"
 				style={navbarStyle}
 			>
-				<a className="navbar-brand p-2" href="/" style={navHStyle} id="nav-h">
+				<a
+					data-scroll
+					className="navbar-brand p-2"
+					href="/"
+					style={navHStyle}
+					id="nav-h"
+				>
 					Payton Haisten
 				</a>
 				<button
@@ -46,22 +52,42 @@ export default class NavBar extends Component {
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#experience" style={navTStyle}>
+							<a
+								data-scroll
+								className="nav-link"
+								href="#experience"
+								style={navTStyle}
+							>
 								Experience
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#skills" style={navTStyle}>
+							<a
+								data-scroll
+								className="nav-link"
+								href="#skills"
+								style={navTStyle}
+							>
 								Skills
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#work" style={navTStyle}>
+							<a
+								data-scroll
+								className="nav-link"
+								href="#work"
+								style={navTStyle}
+							>
 								Work
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#contact" style={navTStyle}>
+							<a
+								data-scroll
+								className="nav-link"
+								href="#contact"
+								style={navTStyle}
+							>
 								Contact
 							</a>
 						</li>

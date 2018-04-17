@@ -118,7 +118,10 @@
 
 #skills {
 	font-family: 'Work Sans', sans-serif;
-	padding: 20%;
+	padding-right: 20%;
+	padding-left: 20%;
+	padding-top: 10%;
+	padding-bottom: 10%;
 }
 
 #skill-header {
@@ -127,7 +130,10 @@
 
 #work {
 	background-color: antiquewhite;
-	padding: 15%;
+	padding-right: 15%;
+	padding-left: 15%;
+	padding-top: 10%;
+	padding-bottom: 10%;
 }
 
 #mentorimg {
@@ -136,8 +142,37 @@
 	height: 50vmax;
 	width: 100%;
 }
+#chirprimg {
+	background-image: url('./images/chirpr.png');
+	background-repeat: no-repeat;
+	background-size: 35vmax;
+}
+#currentimg {
+	background-image: url('./images/current.png');
+	background-repeat: no-repeat;
+	background-size: 40vmax;
+	margin-top: 4em;
+}
 
 #work-header {
+	font-family: 'Bitter', sans-serif;
+}
+
+#more-header {
+	font-family: 'Bitter', sans-serif;
+	margin-top: 15%;
+	align-self: center;
+}
+
+#contact {
+	padding-top: 15%;
+	padding-bottom: 15%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#contact-header {
 	font-family: 'Bitter', sans-serif;
 }
 
@@ -154,6 +189,15 @@
 	}
 
 	#mentorimg {
+		position: absolute;
+		left: -1000px;
+	}
+	#chirprimg {
+		position: absolute;
+		left: -1000px;
+	}
+
+	#currentimg {
 		position: absolute;
 		left: -1000px;
 	}
