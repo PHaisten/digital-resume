@@ -421,7 +421,7 @@ export default class Home extends Component {
 						</h2>
 
 						<a
-							className="row btn btn-xl offset-md-4 mt-3"
+							className="row btn btn-xl offset-md-5 mt-3"
 							style={linkc}
 							href="mailto:me@paytonhaisten.com"
 						>
