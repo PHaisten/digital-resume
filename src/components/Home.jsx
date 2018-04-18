@@ -35,10 +35,6 @@ const linkc = {
 	color: 'white'
 };
 
-const headerstyle = {
-	fontFamily: 'JosefinSans'
-};
-
 export default class Home extends Component {
 	displayScroll() {}
 
@@ -51,12 +47,8 @@ export default class Home extends Component {
 			<div>
 				<section className="jumbotron">
 					<div className="frame">
-						<p className="headerText" style={headerstyle}>
-							Payton
-						</p>
-						<p className="headerText" style={headerstyle}>
-							Haisten
-						</p>
+						<p className="headerText">Payton</p>
+						<p className="headerText">Haisten</p>
 						<p className="underText">Full Stack Web Developer</p>
 					</div>
 				</section>

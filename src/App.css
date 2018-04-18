@@ -30,7 +30,7 @@
 }
 
 .headerText {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Josefin Sans', sans-serif, italic;
 	font-size: 10vw;
 	text-shadow: 2px 2px 0px rgb(204, 77, 3, 0.75);
 }
