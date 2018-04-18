@@ -423,7 +423,7 @@ export default class Home extends Component {
 						<a
 							className="row btn btn-xl offset-md-5 mt-3"
 							style={linkc}
-							href="mailto:me@paytonhaisten.com"
+							href="mailto:paytonhaisten@gmail.com"
 						>
 							Let's chat
 						</a>
