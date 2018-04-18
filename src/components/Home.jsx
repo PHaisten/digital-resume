@@ -415,17 +415,19 @@ export default class Home extends Component {
 				</section>
 
 				<section className="container-fluid" id="contact">
-					<h2 className="row" id="contact-header">
-						Reach out if you like my work!
-					</h2>
+					<div className="col-lg-6">
+						<h2 className="row" id="contact-header">
+							Reach out if you like my work!
+						</h2>
 
-					<a
-						className="btn btn-xl ml-5"
-						style={linkc}
-						href="mailto:me@paytonhaisten.com"
-					>
-						Let's chat
-					</a>
+						<a
+							className="row btn btn-xl offset-md-4 mt-3"
+							style={linkc}
+							href="mailto:me@paytonhaisten.com"
+						>
+							Let's chat
+						</a>
+					</div>
 				</section>
 				<ScrollUpButton />
 			</div>
