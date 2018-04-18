@@ -180,6 +180,23 @@
 	font-family: 'Work Sans', sans-serif;
 }
 
+#icon1 {
+	color: rgb(59, 89, 152);
+	margin-left: 1em;
+}
+#icon2 {
+	color: rgb(0, 119, 181);
+	margin-left: 1em;
+}
+#icon3 {
+	color: black;
+	margin-left: 1em;
+}
+#icon4 {
+	color: rgb(76, 95, 215);
+	margin-left: 1em;
+}
+
 @media (max-width: 500px) {
 	.jumbotron {
 		background-image: none;

@@ -430,6 +430,52 @@ export default class Home extends Component {
 					</div>
 				</section>
 				<ScrollUpButton />
+				<footer class="footer">
+					<div class="container">
+						<span class="text-muted">Developed by Payton Haisten.</span>
+
+						<a
+							href="https://www.facebook.com/phaisten"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="fa fa-facebook-square"
+							id="icon1"
+							aria-hidden="true"
+						>
+							.
+						</a>
+						<a
+							href="https://www.linkedin.com/in/phaisten/"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="fa fa-linkedin"
+							id="icon2"
+							aria-hidden="true"
+						>
+							.
+						</a>
+						<a
+							href="https://github.com/PHaisten"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="fa fa-github"
+							id="icon3"
+							aria-hidden="true"
+						>
+							.
+						</a>
+						<a
+							href="https://instagram.com/PHaisten"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="fa fa-instagram"
+							id="icon4"
+							aria-hidden="true"
+						>
+							.
+						</a>
+					</div>
+				</footer>
 			</div>
 		);
 	}
