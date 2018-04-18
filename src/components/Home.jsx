@@ -415,13 +415,13 @@ export default class Home extends Component {
 				</section>
 
 				<section className="container-fluid" id="contact">
-					<div className="col-lg-6">
-						<h2 className="row" id="contact-header">
+					<div className="col-lg-8">
+						<h2 className="row offset-md-2" id="contact-header">
 							Reach out if you like my work!
 						</h2>
 
 						<a
-							className="row btn btn-xl offset-md-4 mt-3"
+							className="row btn btn-xl offset-md-6 mt-3"
 							style={linkc}
 							href="mailto:me@paytonhaisten.com"
 						>
