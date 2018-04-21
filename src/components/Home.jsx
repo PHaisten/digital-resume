@@ -348,7 +348,7 @@ export default class Home extends Component {
 							</h3>
 							<p className="row" id="work-text">
 								While in Covalence, we were tasked with creating a React Native
-								app that functioned as a way for thos who wanted to learn more
+								app that functioned as a way for those who wanted to learn more
 								about web development and programming to connect.
 							</p>
 							<a
