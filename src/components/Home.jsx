@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ScrollUpButton from 'react-scroll-up-button';
+import ContactForm from './ContactForm';
 
 const submitStyle = {
 	color: 'rgb(204, 77, 3)',
@@ -428,6 +429,7 @@ export default class Home extends Component {
 							Let's chat
 						</a>
 					</div>
+					<ContactForm />
 				</section>
 				<ScrollUpButton />
 				<footer class="footer">
