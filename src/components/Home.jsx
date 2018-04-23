@@ -60,8 +60,8 @@ export default class Home extends Component {
 								About Me
 							</h1>
 							<p className="row ml-2" id="about-text">
-								Web Developer with experience in creating responsive websites
-								and applications, that are aesthetically pleasing and
+								Junior Web Developer with experience in creating responsive
+								websites and applications, that are aesthetically pleasing and
 								functional. With my experience in operations and training I am
 								able to learn in fast pace environments, improve processes and
 								efficiencies, and lead others with deadlines in mind.
