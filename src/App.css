@@ -138,20 +138,20 @@
 
 #mentorimg {
 	background-image: url('./images/mentor.png');
-	background-size: 11vmax;
+	background-size: 14vmax;
 	background-repeat: no-repeat;
 	margin-left: 12em;
 }
 #chirprimg {
 	background-image: url('./images/macbook.png');
 	background-repeat: no-repeat;
-	background-size: 34vmax;
+	background-size: 44vmax;
 	margin-top: 40px;
 }
 #currentimg {
 	background-image: url('./images/current.png');
 	background-repeat: no-repeat;
-	background-size: 34vmax;
+	background-size: 40vmax;
 	margin-top: 4em;
 }
 
