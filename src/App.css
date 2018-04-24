@@ -146,10 +146,7 @@
 	background-image: url('./images/macbook.png');
 	background-repeat: no-repeat;
 	background-size: 25vmax;
-	margin-top: 40px;
-	margin-bottom: 10em;
 	margin-left: 5em;
-	float: right;
 }
 #currentimg {
 	background-image: url('./images/current.png');
