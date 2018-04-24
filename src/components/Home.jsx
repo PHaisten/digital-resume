@@ -363,7 +363,7 @@ export default class Home extends Component {
 						</div>
 					</div>
 					<div className="row" id="mentor">
-						<div className="col mt-5 mr-5">
+						<div className="col">
 							<h3 className="row" id="work-header">
 								Chirpr
 							</h3>

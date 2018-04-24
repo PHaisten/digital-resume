@@ -137,20 +137,21 @@
 }
 
 #mentorimg {
-	background-image: url('./images/mentorme.png');
+	background-image: url('./images/mentor.png');
+	background-size: 11vmax;
 	background-repeat: no-repeat;
-	height: 50vmax;
-	width: 100%;
+	margin-left: 12em;
 }
 #chirprimg {
-	background-image: url('./images/chirpr.png');
+	background-image: url('./images/macbook.png');
 	background-repeat: no-repeat;
 	background-size: 34vmax;
+	margin-top: 40px;
 }
 #currentimg {
 	background-image: url('./images/current.png');
 	background-repeat: no-repeat;
-	background-size: 40vmax;
+	background-size: 34vmax;
 	margin-top: 4em;
 }
 
