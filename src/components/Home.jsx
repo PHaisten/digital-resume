@@ -342,7 +342,7 @@ export default class Home extends Component {
 					<hr className="pb-4" />
 					<div className="row" id="mentor">
 						<div className="col d-inline-flex" id="mentorimg" />
-						<div className="col mt-5">
+						<div className="col mb-5">
 							<h3 className="row" id="work-header">
 								Mentor.me
 							</h3>
