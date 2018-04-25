@@ -2,14 +2,13 @@ import React, { Component, Fragment } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Home from '../src/components/Home';
-import NavBar from '../src/components/NavBar';
+// import NavBar from '../src/components/NavBar';
 
 class App extends Component {
 	render() {
 		return (
 			<Router>
 				<Fragment>
-					<NavBar />
 					<Switch>
 						<Route exact path="/" component={Home} />
 					</Switch>

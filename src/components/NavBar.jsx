@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+var Scroll = require('react-scroll');
+var scroll = Scroll.animateScroll;
 
 const navbarStyle = {
 	color: 'black',
@@ -18,6 +20,22 @@ const navTStyle = {
 };
 
 export default class NavBar extends Component {
+	scrollAbout() {
+		scroll.scrollTo(825);
+	}
+	scrollExperience() {
+		scroll.scrollTo(1500);
+	}
+	scrollSkills() {
+		scroll.scrollTo(2700);
+	}
+	scrollWork() {
+		scroll.scrollTo(4000);
+	}
+	scrollContact() {
+		scroll.scrollTo(5300);
+	}
+
 	render() {
 		return (
 			<nav
@@ -53,6 +71,22 @@ export default class NavBar extends Component {
 						</li>
 						<li className="nav-item">
 							<a
+								onClick={() => {
+									this.scrollAbout();
+								}}
+								data-scroll
+								className="nav-link"
+								href="#about"
+								style={navTStyle}
+							>
+								About Me
+							</a>
+						</li>
+						<li className="nav-item">
+							<a
+								onClick={() => {
+									this.scrollExperience();
+								}}
 								data-scroll
 								className="nav-link"
 								href="#experience"
@@ -63,6 +97,9 @@ export default class NavBar extends Component {
 						</li>
 						<li className="nav-item">
 							<a
+								onClick={() => {
+									this.scrollSkills();
+								}}
 								data-scroll
 								className="nav-link"
 								href="#skills"
@@ -73,6 +110,9 @@ export default class NavBar extends Component {
 						</li>
 						<li className="nav-item">
 							<a
+								onClick={() => {
+									this.scrollWork();
+								}}
 								data-scroll
 								className="nav-link"
 								href="#work"
@@ -83,6 +123,9 @@ export default class NavBar extends Component {
 						</li>
 						<li className="nav-item">
 							<a
+								onClick={() => {
+									this.scrollContact();
+								}}
 								data-scroll
 								className="nav-link"
 								href="#contact"

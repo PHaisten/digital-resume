@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ScrollUpButton from 'react-scroll-up-button';
+import NavBar from './NavBar';
 
 const submitStyle = {
 	color: 'rgb(204, 77, 3)',
@@ -36,16 +37,11 @@ const linkc = {
 };
 
 export default class Home extends Component {
-	displayScroll() {}
-
-	scrollToTop() {
-		window.scrollTo(0, 0);
-	}
-
 	render() {
 		return (
 			<div>
-				<section className="jumbotron">
+				<NavBar />
+				<section className="jumbotron" id="jumbotronNav">
 					<div className="frame">
 						<p className="headerText">Payton</p>
 						<p className="headerText">Haisten</p>
