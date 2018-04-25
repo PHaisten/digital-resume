@@ -27,13 +27,13 @@ export default class NavBar extends Component {
 		scroll.scrollTo(1700);
 	}
 	scrollSkills() {
-		scroll.scrollTo(2900);
+		scroll.scrollTo(3000);
 	}
 	scrollWork() {
 		scroll.scrollTo(4300);
 	}
 	scrollContact() {
-		scroll.scrollTo(5200);
+		scroll.scrollTo(5400);
 	}
 
 	render() {
